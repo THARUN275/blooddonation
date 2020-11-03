@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+.menu {
+  padding: 20pt;
+  float:left;
+  width:20%;
+  text-align:center;
+}
+ 
+<!--.menu a {
+  margin-top:7px;
+  display:block;
+  width:100%;
+  color:tomato(3, 3, 1, 0.747);
+}-->
+.main {
+  float:left;
+  width:60%;
+  padding:0 20px;
+}
+.right {
+
+  float: left;
+  width: 180px;
+  padding:15px;
+  margin-top:5px;
+  text-align:center;
+  background-color: rgb(152, 177, 177);
+}
+.bottom{
+  color: aliceblue;
+}
+
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width:100%;
+  }
+}
+
+.fa {
+  padding: 20px;
+  font-size: 25px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+.fa-snapchat-ghost{
+ background-color: yellow;
+ color:white;
+}
+.fa-skype{
+  background-color: rgba(233, 227, 227, 0.87);
+}
+nav{
+    background-color:rgb(132, 141, 4);
+    height: 80px;
+    width: 100%;
+    line-height: 60px;
+    
+    
+
+}
+nav ul li:hover{
+ background-color: rgb(70, 19, 70);
+
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    display:block;
+    padding: 0 20px;
+
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+nav li{
+    font-size: 30px;
+}
+
+</style>
+</head>
+<!--<script>
+  var width =20;
+  var difference =2;
+  var ID=0;
+  function increase()
+  {
+      clearInterval(ID)
+      ID=setInterval(expand,5)
+  }
+  function expand()
+  {
+      if(width<20){
+          width= width + difference
+          document.getElementById('img1').style.width=width
+      }
+      else
+      {
+          clearInterval(ID)   
+      }
+      
+  }
+  function decrease()
+  {
+      clearInterval(ID)   
+     ID= setInterval(shrink,20)
+  }
+  function shrink()
+   {
+       if(width > 10)
+       {
+           width= width -difference
+           document.getElementById('img1').style.width=width
+           
+       }
+       else
+      {
+          clearInterval(ID)   
+      } 
+   }
+</script>-->
+
+
+
+<body style="font-family:Verdana;color:rgba(64, 18, 231, 0.815);"></body>
+<header>
+  <nav>
+      <ul>
+          <li><a href="/BD/webpage1.html">Can i give blood?</a> </li>
+          <li><a href="/BD/webpage2.html">Health and Eligibility</a></li>
+          <li><a href="/BD/webpage3.html">Donors and Disability</a></li>
+          <li><a href="/BD/bdlogin.html" ><p style="color:red">sign in</p></a></li>
+      </ul>
+  </nav>
+</header>
+<div style="background-color:rgba(61, 60, 60, 0.849);padding:10px;text-align:center;">
+  <h1><p style="color:rgb(219, 194, 163)">Blood donation</p></h1>
+</div>
+
+<div style="overflow:auto">
+  <div class="menu">
+      
+    <img src="first page.webp" id="img1" onmouseover="increase()"
+    onmouseout="decrease()" width="150"height="400">   
+          
+    </div>
+
+  <div class="main">
+    <h2>blood donation</h2>
+    <p>Donors Guidelines. Any donor, who is <black quote>healthy</black quote>, <strong>fit and not suffering from any 
+        transmittable diseases can donate blood</strong>. Donor must be<q> 18 -60 years age and having a minimum weight of
+           50Kg </q>can donate blood. A donor can again donate blood after 3 months of your last donation of blood.</p><br>
+           <b><i>1.What are the requirements for donating blood?</i><br></b>
+<p class="dotted">General Guidelines. To donate blood or platelets, 
+  you must be in good general health, weigh at least 110 pounds, and be at least 16 years old.
+   Parental consent is required for blood donation by 16 year olds; 16 year olds are NOT eligible to donate platelets .<br>
+   <br><b><i>2.Who is allowed to donate blood?</i></b><br><br>
+Weight: You must weigh at least 110 pounds to be eligible for blood donation for your own safety.
+ Blood volume is in proportion to body weight. Donors who weigh less than 110 pounds may not tolerate the removal of the required volume of blood as well as those who weigh more than 110 pounds<br>
+  </div>
+ 
+
+  <div class="right">
+    <h2>About</h2>
+
+    <p>A blood donation occurs when a person voluntarily has blood drawn and used for transfusions and/or made into biopharmaceutical medications by a process called fractionation</p>
+  </div>
+</div>
+
+<div style="background-color:rgba(23, 78, 104, 0.884);text-align:center;padding:10px;margin-top:7px;"><div class="bottom">© blood donation.com<br>for more information <br> CONTACT US  - +91 7981790871</div></div>
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+<a href="#" class="fa fa-linkedin"></a>
+<a href="#" class="fa fa-youtube"></a>
+<a href="#" class="fa fa-instagram"></a>
+<a href="#" class="fa fa-pinterest"></a>
+<a href="#" class="fa fa-snapchat-ghost"></a>
+<a href="#" class="fa fa-skype"></a>
+</body>
+</html>
